@@ -2,6 +2,7 @@ import scrapy
 import json
 
 
+# Scraping a simple website with pagination
 class QuotesSpider(scrapy.Spider):
     name = "quotes"
     allowed_domains = ["quotes.toscrape.com"]
